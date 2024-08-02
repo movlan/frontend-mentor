@@ -1,7 +1,8 @@
 **/*
-!src/
 !tailwind.config.js
 !package.json
 !readme.md
 !assets
 !.gitignore
+!**/index.html
+!style.css
