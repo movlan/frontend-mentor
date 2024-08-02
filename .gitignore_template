@@ -1,0 +1,6 @@
+**/*
+!src/
+!tailwind.config.js
+!package.json
+!readme.md
+!assets
