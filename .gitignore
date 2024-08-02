@@ -1,8 +1,7 @@
-**/*
-!tailwind.config.js
-!package.json
-!readme.md
-!assets
-!.gitignore
-!**/index.html
-!style.css
+node_modules
+design
+data.json
+package-lock.json
+preview.jpg
+style-guide.md
+README-template.md
