@@ -4,17 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Frontend Mentor Solutions</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   </head>
-  <body>
-    <ul>
-      <li>
-        <a href="./social-links-profile-main/src/index.html"
-          >Social Links Profile</a
-        >
-      </li>
-      <li>
-        <a href="./results-summary-component-main/src/index.html">Results Summary Page</a>
-      </li>
-    </ul>
+  <body class="p-6 bg-gray-100">
+    <main
+      class="max-w-md mx-auto overflow-hidden bg-white shadow-md rounded-xl md:max-w-2xl"
+    >
+    <div class="md:flex">
+      <div class="p-8">
+          <h1 class="mb-4 text-2xl">Frontend Mentor Solutions</h1>
+          <div
+            class="text-sm font-semibold tracking-wide text-indigo-500 uppercase"
+          >
+            Solutions
+          </div>
+          <ul class="mt-4 space-y-2 list-inside">
+            <li class="text-gray-700 hover:cursor-pointer">
+              <a href="./social-links-profile-main/src/index.html"
+                >Social Links Profile</a
+              >
+            </li>
+            <li class="text-gray-700 hover:cursor-pointer">
+              <a href="./results-summary-component-main/src/index.html"
+                >Results Summary Page</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
